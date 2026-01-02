@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-bar {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-links a,
+  .nav-links .btn {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .nav-links .btn {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero {
+    background-color: #f1c94e;
+    padding: 100px 20px 40px;
+    text-align: center;
+  }
+  
+  .image-gallery img {
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .recommend {
+    background-color: #e5e5e5;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .recommend-gallery img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .menu-section {
+    background-color: #ccc;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .menu-logo {
+    width: 200px;
+  }
+  
+  .full-menu {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .reviews {
+    background-color: #d2bd6c;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .review-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #d2bd6c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  footer .about {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  footer .map iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+  }
+  
